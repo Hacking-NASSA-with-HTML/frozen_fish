@@ -117,3 +117,21 @@ html {
     height: 25px;
     padding-right: 1vw;
 }
+
+.footer--wrapper .whatsappModule {
+    padding: 0 0 6vh 0;
+}
+
+.footer--wrapper .whatsappModule a {
+    font-size: calc(20px + (50 - 20) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 400;
+    color: #f8f6f6;
+    text-decoration: none;
+    outline: none;
+}
+
+.footer--wrapper .whatsappModule img {
+    width: 25px;
+    height: 25px;
+    padding-right: 1vw;
+}
