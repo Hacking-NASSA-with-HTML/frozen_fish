@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #666d89;
+    width: 100vw;
+}
+
+.header .header--wrapper {
+    max-width: 1020px;
+    height: auto;
+    text-align: center;
+}
+
+.header .p1 {
+    font-size: calc(20px + (130 - 20) * ((100vw - 300px) / (1600 - 300)));
+    padding: 4vh 10vw 3vh;
+    font-weight: 700;
+    color: #f8f6f6;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: #50535d;
+}
+
+.main .main--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1020px;
+    height: auto;
+    text-align: center;
+}
+
+.main .h1 {
+    font-size: calc(20px + (50 - 20) * ((100vw - 300px) / (1600 - 300)));
+    padding: 4vh 10vw 3vh;
+    font-weight: 700;
+    color: #f8f6f6;
+}
+
+.main .article {
+    font-size: calc(16px + (50 - 16) * ((100vw - 300px) / (1600 - 300)));
+    padding: 4vh 10vw 3vh;
+    font-weight: 400;
+    color: #ddd4d4;    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+    background-color: #0a0886;
+    overflow: hidden;
+}
+
+.footer .footer--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 2vw 10vh;
+}
+
+.footer--wrapper .call__us {
+    margin: 0 0 5vh 0;
+}
+
+.footer--wrapper .call__us a, .footer--wrapper .email__us a {
+    font-size: calc(20px + (50 - 20) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 400;
+    color: #f8f6f6;
+    text-decoration: none;
+    outline: none;
+}
+
+.footer--wrapper .call__us img, .footer--wrapper .email__us img {
+    width: 25px;
+    height: 25px;
+    padding-right: 1vw;
+}
