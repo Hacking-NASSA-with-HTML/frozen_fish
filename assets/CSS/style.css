@@ -45,6 +45,8 @@ html {
 }
 
 .header--wrapper img {
+    max-width: 100%; /* or max-width: 100%; */
+    height: auto;
     margin-top: 4vh;
 }
 
