@@ -81,7 +81,7 @@ html {
 .main .h1 {
     font-size: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
     padding: 4vh 10vw 3vh;
-    font-weight: 700;
+    font-weight: 500;
     color: #f8f6f6;
 }
 
@@ -115,7 +115,7 @@ html {
 
 .footer--wrapper .call__us a, .footer--wrapper .email__us a {
     font-size: calc(20px + (50 - 20) * ((100vw - 300px) / (1600 - 300)));
-    font-weight: 400;
+    font-weight: 500;
     color: #f8f6f6;
     text-decoration: none;
     outline: none;
