@@ -7,16 +7,19 @@ html {
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto/Roboto-Bold.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto/Roboto-Medium.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto/Roboto-Regular.ttf");
+    font-display: swap;
 }
 
 .body {
