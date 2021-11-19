@@ -4,7 +4,7 @@ html {
 
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');*/
 
-/* @font-face {
+@font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto/Roboto-Bold.ttf");
 }
@@ -17,7 +17,7 @@ html {
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto/Roboto-Regular.ttf");
-} */
+}
 
 .body {
     display: flex;
@@ -88,6 +88,7 @@ html {
 .main .article {
     font-size: calc(25px + (50 - 25) * ((100vw - 300px) / (1600 - 300)));
     padding: 4vh 10vw 3vh;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #ddd4d4;    
 }
