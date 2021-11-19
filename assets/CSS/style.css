@@ -44,10 +44,15 @@ html {
     text-align: center;
 }
 
-.header--wrapper img {
+.header--wrapper .desktop--logo {
+    display: block;
     max-width: 100%; /* or max-width: 100%; */
     height: auto;
     margin-top: 4vh;
+}
+
+.header--wrapper .mobile--logo {
+    display: none;
 }
 
 .header .p1 {
@@ -138,4 +143,45 @@ html {
     width: 25px;
     height: 25px;
     padding-right: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************                                          ***********/
+/*****************************        @media (max-width: 768px)         ***********/
+/*****************************                                          ***********/
+/*****************************                                          ***********/
+
+@media (max-width: 768px)  {
+
+    .header--wrapper .desktop--logo {
+        display: none;
+    }
+
+    .header--wrapper .mobile--logo {
+        display: block;
+        max-width: 100%; /* or max-width: 100%; */
+        height: auto;
+        margin-top: 4vh;
+    }
+
+
+
+
+
 }
