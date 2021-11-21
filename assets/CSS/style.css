@@ -54,9 +54,9 @@ html {
     margin-top: 4vh;
 }
 
-.header--wrapper .mobile--logo {
+/* .header--wrapper .mobile--logo {
     display: none;
-}
+} */
 
 .header .p1 {
     font-size: calc(30px + (130 - 30) * ((100vw - 300px) / (1600 - 300)));
@@ -171,7 +171,7 @@ html {
 /*****************************                                          ***********/
 /*****************************                                          ***********/
 
-@media (max-width: 768px)  {
+/* @media (max-width: 768px)  {
 
     .header--wrapper .desktop--logo {
         display: none;
@@ -179,7 +179,7 @@ html {
 
     .header--wrapper .mobile--logo {
         display: block;
-        max-width: 100%; /* or max-width: 100%; */
+        max-width: 100%;
         height: auto;
         margin-top: 4vh;
     }
@@ -188,4 +188,4 @@ html {
 
 
 
-}
+} */
