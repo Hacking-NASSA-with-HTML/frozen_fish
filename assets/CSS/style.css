@@ -49,9 +49,6 @@ html {
 
 .header--wrapper .desktop--logo {
     display: block;
-    max-width: 100%; /* or max-width: 100%; */
-    height: auto;
-    margin-top: 4vh;
 }
 
 /* .header--wrapper .mobile--logo {
@@ -189,3 +186,27 @@ html {
 
 
 } */
+
+@media (min-width: 100px) and (max-width: 768px) {
+    .header--wrapper .desktop--logo {
+        width: 30vw;
+        height: auto;
+        margin-top: 4vh;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header--wrapper .desktop--logo {
+        width: 10vw;
+        height: auto;
+        margin-top: 4vh;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .header--wrapper .desktop--logo {
+        width: 10vw;
+        height: auto;
+        margin-top: 4vh;
+    }
+}
