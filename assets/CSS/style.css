@@ -205,7 +205,7 @@ html {
 
 @media only screen and (min-width: 1025px) {
     .header--wrapper .desktop--logo {
-        max-width: 200px;
+        width: 250px;
         height: auto;
         margin-top: 4vh;
     }
