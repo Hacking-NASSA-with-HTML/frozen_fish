@@ -127,7 +127,7 @@ html {
 .footer--wrapper .call__us img, .footer--wrapper .email__us img {
     width: 25px;
     height: 25px;
-    padding-right: 1vw;
+    margin-right: 1vw;
 }
 
 .footer--wrapper .whatsappModule {
@@ -145,7 +145,7 @@ html {
 .footer--wrapper .whatsappModule img {
     width: 25px;
     height: 25px;
-    padding-right: 1vw;
+    margin-right: 1vw;
 }
 
 
