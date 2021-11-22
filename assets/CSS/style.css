@@ -57,10 +57,6 @@ html {
     display: block;
 }
 
-/* .header--wrapper .mobile--logo {
-    display: none;
-} */
-
 .header .p1 {
     font-size: calc(30px + (130 - 30) * ((100vw - 300px) / (1600 - 300)));
     padding: 4vh 10vw 3vh;
@@ -160,38 +156,12 @@ html {
 
 
 
-
-
-
-
-
-
-
-
-
 /*****************************                                          ***********/
 /*****************************        @media (max-width: 768px)         ***********/
 /*****************************                                          ***********/
 /*****************************                                          ***********/
 
-/* @media (max-width: 768px)  {
 
-    .header--wrapper .desktop--logo {
-        display: none;
-    }
-
-    .header--wrapper .mobile--logo {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        margin-top: 4vh;
-    }
-
-
-
-
-
-} */
 
 @media (min-width: 100px) and (max-width: 768px) {
     .header--wrapper .desktop--logo {
@@ -201,6 +171,8 @@ html {
     }
 }
 
+
+
 @media (min-width: 769px) and (max-width: 1024px) {
     .header--wrapper .desktop--logo {
         width: 15vw;
@@ -208,6 +180,8 @@ html {
         margin-top: 4vh;
     }
 }
+
+
 
 @media only screen and (min-width: 1025px) {
     .header--wrapper .desktop--logo {
