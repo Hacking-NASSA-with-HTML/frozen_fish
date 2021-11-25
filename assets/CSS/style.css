@@ -42,6 +42,7 @@ html {
     justify-content: center;
     background-color: #e1e3ee;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 .header .header--wrapper {
