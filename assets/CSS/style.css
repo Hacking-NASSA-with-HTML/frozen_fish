@@ -40,7 +40,7 @@ html {
 .header {
     display: flex;
     justify-content: center;
-    background-color: #666d89;
+    background-color: #e1e3ee;
     width: 100vw;
 }
 
@@ -61,14 +61,15 @@ html {
     font-size: calc(30px + (130 - 30) * ((100vw - 300px) / (1600 - 300)));
     padding: 4vh 10vw 3vh;
     font-weight: 700;
-    color: #f8f6f6;
+    color: #084162;
 }
 
 .main {
     display: flex;
     justify-content: center;
     width: 100vw;
-    background-color: #50535d;
+    background-color: #072588;
+    overflow-x: hidden;
 }
 
 .main .main--wrapper {
@@ -88,11 +89,25 @@ html {
 }
 
 .main .article {
-    font-size: calc(25px + (50 - 25) * ((100vw - 300px) / (1600 - 300)));
     padding: 4vh 10vw 3vh;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #ddd4d4;    
+}
+
+.article .h2header {
+    font-size: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
+    padding: 4vh 2vw 6vh;
+    font-weight: 500;
+    color: #f8f6f6;
+}
+
+.article .paragraph {
+    font-size: calc(25px + (50 - 25) * ((100vw - 300px) / (1600 - 300)));
+    padding: 4vh 2vw 3vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ddd4d4;
 }
 
 .footer {
@@ -101,7 +116,7 @@ html {
     height: auto;
     width: 100vw;
     background-color: #0a0886;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .footer .footer--wrapper {
@@ -112,8 +127,21 @@ html {
     margin: 4vh 2vw 10vh;
 }
 
+.footer--wrapper .paragraph {
+    text-align: center;
+    font-size: calc(25px + (50 - 25) * ((100vw - 300px) / (1600 - 300)));
+    padding: 4vh 2vw 3vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ddd4d4;
+}
+
 .footer--wrapper .call__us {
-    margin: 0 0 5vh 0;
+    margin: 0 0 1vh 0;
+}
+
+.footer--wrapper .email__us {
+    margin: 0 0 8vh 0;
 }
 
 .footer--wrapper .call__us a, .footer--wrapper .email__us a {
@@ -130,7 +158,22 @@ html {
     margin-right: 1vw;
 }
 
-.footer--wrapper .whatsappModule {
+.footer--wrapper .our--main--site {
+    text-align: center;
+}
+
+.footer--wrapper .our--main--site a {
+    text-align: center;
+    font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+    padding: 4vh 2vw 3vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #f10f0f;
+    text-decoration: none;
+    outline: none;
+}
+
+/* .footer--wrapper .whatsappModule {
     padding: 0 0 6vh 0;
 }
 
@@ -146,7 +189,7 @@ html {
     width: 25px;
     height: 25px;
     margin-right: 1vw;
-}
+} */
 
 
 
